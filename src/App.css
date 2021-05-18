@@ -1,0 +1,42 @@
+
+.header {
+  background-color: #373151;
+  color: white;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.label {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.alert {
+  max-width: 60%;
+  margin: 20px;
+}
+
+.filterbox {
+  margin-left: 50px
+}
+
+.pagination {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.member-card {
+  flex: 1;
+  margin: 50px;
+  max-width: 25%
+}
