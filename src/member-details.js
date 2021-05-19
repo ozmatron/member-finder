@@ -17,7 +17,6 @@ export default function MemberDetail({ memberId, toggle }) {
       .then((response) => response.json())
       .then(
         (data) => (
-          console.log("member data", data),
           setMemberDetail(data),
           setSitsInHouse(data.value.latestHouseMembership.house)
         )
@@ -37,7 +36,7 @@ export default function MemberDetail({ memberId, toggle }) {
     setVotesLoading(true);
     fetch(`${endpoint}`)
       .then((response) => response.json())
-      .then((data) => (console.log("vote data", data), setVotesDetail(data)))
+      .then((data) => setVotesDetail(data))
       .finally(() => {
         setVotesLoading(false);
       });

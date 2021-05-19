@@ -10,7 +10,7 @@ import {
     Input,
     Dropdown,
   } from 'reactstrap';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Filters({
   search,

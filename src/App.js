@@ -35,7 +35,6 @@ function App() {
       .then((response) => response.json())
       .then(
         (data) => (
-          console.log("data", data),
           data.totalResults > 0 && setTotalResultsCount(data.totalResults),
           setMembersResults(data.items)
         )
